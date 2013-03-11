@@ -1,6 +1,6 @@
 # DTYahooWeather
 
-DTYahooWeather is a PHP class to get the weather condition based on your country name. It uses Yahoo Weather APIs, and you no longer worry about getting the WOEID anymore, because it's already there.
+DTYahooWeather is a PHP class to get the weather condition based on your country or city name. It uses Yahoo Weather APIs, and you no longer worry about getting the WOEID anymore, because it's already there.
 
 ## Contact
 [Blog site](http://didats.net)
@@ -14,8 +14,8 @@ DTYahooWeather is a PHP class to get the weather condition based on your country
 	$weather = new Weather($yourCityName);
 
 	// get woeid. 
-	// It will be better if you save the woeid somewhere so the class won't need to get it again
-	$woeid = $weather->woeid;
+	// It will be better if you save the woeid somewhere so the class doesn't need to grab it again
+	$woeid = $weather->woeid();
 
 	// if you already have the woeid, 
 	// set it here
