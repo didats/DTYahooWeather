@@ -2,7 +2,9 @@
 
 DTYahooWeather is a PHP class to get the weather condition based on your country name. It uses Yahoo Weather APIs, and you no longer worry about getting the WOEID anymore, because it's already there.
 
-If you have any questions, go to my website at http://didats.net and contact me from there.
+## Contact
+[Blog site](http://didats.net)
+[@didats](https://twitter.com/didats)
 
 ## Usage
 
@@ -26,7 +28,7 @@ If you have any questions, go to my website at http://didats.net and contact me 
 ## Result Data
 
 ```text
-Array ( [cityName] => Kuwait [regionName] => [countryName] => Kuwait [windChill] => 77 [windDirection] => 350 [windSpeed] => 21 [humidity] => 13 [visibility] => 6.21 [pressure] => 29.94 [rising] => 2 [sunrise] => 6:01 am [sunset] => 5:52 pm [latitude] => 29.31 [longitude] => 47.49 [weatherLink] => http://us.rd.yahoo.com/dailynews/rss/weather/Kuwait__KW/*http://weather.yahoo.com/forecast/KUXX0003_f.html [weatherCode] => 34 [weatherName] => Fair [weatherTemperature] => -17.7777777778 ) 
+Array ( [cityName] => Kuwait [regionName] => [countryName] => Kuwait [windChill] => 77 [windDirection] => 350 [windSpeed] => 21 [humidity] => 13 [visibility] => 6.21 [pressure] => 29.94 [rising] => 2 [sunrise] => 6:01 am [sunset] => 5:52 pm [latitude] => 29.31 [longitude] => 47.49 [weatherLink] => http://us.rd.yahoo.com/dailynews/rss/weather/Kuwait__KW/*http://weather.yahoo.com/forecast/KUXX0003_f.html [weatherCode] => 34 [weatherName] => Fair [weatherTemperatureCelcius] => 24.44 [weatherTemperatureFahrenheit] => 76 ) 
 ```
 
 ## License

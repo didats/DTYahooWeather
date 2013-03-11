@@ -181,7 +181,7 @@
 			$this->weatherLink = $item['link']['_v'];
 			$this->weatherCode = $item['yweather:condition']['_a']['code'];
 			$this->weatherName = $item['yweather:condition']['_a']['text'];
-			$this->weatherTemperature = $item['yweather:condition']['_a']['text'];
+			$this->weatherTemperature = $item['yweather:condition']['_a']['temp'];
 			
 			return array(
 				'cityName' => $this->cityName,
@@ -201,7 +201,8 @@
 				'weatherLink' => $this->weatherLink,
 				'weatherCode' => $this->weatherCode,
 				'weatherName' => $this->weatherName,
-				'weatherTemperature' => ($this->weatherTemperature - 32) / 1.8
+				'weatherTemperatureCelcius' => ($this->weatherTemperature - 32) / 1.8,
+				'weatherTemperatureFahrenheit' => $this->weatherTemperature
 			);
 		}
 		
